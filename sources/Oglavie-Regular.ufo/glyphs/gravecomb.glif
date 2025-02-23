@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="gravecomb" format="2">
+  <advance width="1"/>
+  <unicode hex="0300"/>
+  <anchor x="-93" y="696" name="_Stack"/>
+  <anchor x="-94" y="858" name="Stack"/>
+  <anchor x="-94" y="694" name="_Above"/>
+  <outline>
+    <contour>
+      <point x="-91" y="733" type="line"/>
+      <point x="-91" y="694" type="line"/>
+      <point x="-98" y="694" type="line"/>
+      <point x="-263" y="765" type="line"/>
+      <point x="-263" y="810" type="line"/>
+      <point x="-256" y="810" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>694</integer>
+            <key>width</key>
+            <integer>116</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-263</integer>
+            <key>width</key>
+            <integer>172</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
