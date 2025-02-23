@@ -529,7 +529,8 @@ feature mkmk {
 	\uni047A \uni047B \uni047C \uni047D \uni047E \uni047F \uni0480 \uni0481 \uni0482 
 	\uni0484 \uni0485 \uni0488 \uni0489 \uni0423 \uni0443 \uni000D \uni0402 \uni0408 
 	\uni0409 \uni040A \uni040B \uni042D \uni042F \uni044F \uni044D \uniA64C \uniA64D 
-	\uniA67D \uniA67F \uniA673 \uni2E2F \uni1C82 ];
+	\uniA67D \uniA67F \uniA673 \uni2E2F \uni1C82 \uni202F \uni2003 \uni2004 \uni2005 
+	\uni2006 \uni2007 \uni2008 \uni2009 \uni200A \uni200B \uni200C \uni200D ];
 @GDEF_Ligature = [\afii10100 \afii10061 \afii10109 \afii10062 \afii10110 
 	\afii10023 \afii10056 \afii10071 \afii10104 \afii10027 \afii10075 \uni0400 
 	\uni040D \uni0450 \uni045D \uni0476 \uni0477 \uni0478 \uni0479 \uni0403 ];
