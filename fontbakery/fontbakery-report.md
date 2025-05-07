@@ -1,21 +1,6 @@
 ## FontBakery report
 
-fontbakery version: 0.13.2
-
-
-
-
-
-## Experimental checks
-
-These won't break the CI job for now, but will become effective after some time if nobody raises any concern.
-
-
-<details><summary>[1] Oglavie-Regular.ttf</summary>
-<div>
-<details>
-    <summary>🔥 <b>FAIL</b> Check base characters have non-zero advance width. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#base-has-width">base_has_width</a></summary>
-    <div>
+fontbakery version: 0.13.3
 
 
 
@@ -23,21 +8,7 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 
-* 🔥 **FAIL** <p>The following glyphs had zero advance width:
-- uniE005 (U+E005)</p>
- [code: zero-width-bases]
-
-
-
-</div>
-</details>
-</div>
-</details>
-
-
-
-
-## All other checks
+## Check results
 
 
 
@@ -106,7 +77,7 @@ For Google Fonts, all messages from this check are considered FAILs.</p>
 <td align="left"></td>
 </tr>
 <tr>
-<td align="left">The following base characters are missing from the font: Ꙁ, ꙁ, ꙃ, Ꙃ</td>
+<td align="left">The following base characters are missing from the font: Ꙃ, ꙁ, ꙃ, Ꙁ</td>
 <td align="left">cu_Cyrl (Church Slavic)</td>
 </tr>
 </tbody>
@@ -1255,9 +1226,9 @@ definitions.</p>
 <li>U+2007 FIGURE SPACE: try adding symbols2</li>
 <li>U+2008 PUNCTUATION SPACE: try adding symbols2</li>
 <li>U+200A HAIR SPACE: try adding symbols2</li>
-<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: new-tai-lue, batak, oriya, kharoshthi, nko, pahawh-hmong, arabic, malayalam, meetei-mayek, myanmar, sharada, warang-citi, duployan, kaithi, masaram-gondi, newa, tai-tham, buginese, khudawadi, tai-viet, phags-pa, tirhuta, mandaic, brahmi, hanifi-rohingya, hatran, hebrew, gunjala-gondi, takri, balinese, tibetan, cham, tamil, manichaean, lao, khojki, syloti-nagri, tagalog, telugu, thai, sinhala, tifinagh, gurmukhi, yi, kannada, rejang, hanunoo, khmer, saurashtra, siddham, sogdian, chakma, syriac, devanagari, grantha, tai-le, zanabazar-square, bengali, kayah-li, lepcha, javanese, tagbanwa, mahajani, bhaiksuki, gujarati, psalter-pahlavi, sundanese, buhid, dogra, thaana, modi, limbu, avestan, mongolian</li>
-<li>U+200D ZERO WIDTH JOINER: try adding one of: new-tai-lue, batak, oriya, kharoshthi, nko, pahawh-hmong, arabic, malayalam, meetei-mayek, myanmar, sharada, warang-citi, duployan, kaithi, masaram-gondi, newa, tai-tham, buginese, khudawadi, tai-viet, phags-pa, tirhuta, mandaic, brahmi, hanifi-rohingya, hebrew, gunjala-gondi, takri, balinese, tibetan, cham, tamil, manichaean, lao, khojki, syloti-nagri, tagalog, telugu, thai, sinhala, tifinagh, gurmukhi, yi, kannada, rejang, hanunoo, khmer, saurashtra, siddham, sogdian, chakma, syriac, devanagari, grantha, tai-le, zanabazar-square, bengali, kayah-li, lepcha, javanese, tagbanwa, mahajani, bhaiksuki, gujarati, old-hungarian, psalter-pahlavi, sundanese, buhid, dogra, thaana, modi, limbu, avestan, mongolian</li>
-<li>U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, yi, phags-pa</li>
+<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: chakma, tamil, batak, oriya, warang-citi, siddham, syriac, sharada, new-tai-lue, gunjala-gondi, tai-tham, tibetan, hanifi-rohingya, balinese, mahajani, hanunoo, meetei-mayek, manichaean, psalter-pahlavi, masaram-gondi, newa, buhid, avestan, phags-pa, gurmukhi, tifinagh, myanmar, mandaic, devanagari, sinhala, syloti-nagri, kharoshthi, javanese, grantha, lepcha, bhaiksuki, duployan, tagalog, pahawh-hmong, tagbanwa, bengali, gujarati, arabic, limbu, telugu, tirhuta, thaana, buginese, dogra, hatran, kayah-li, lao, malayalam, modi, mongolian, saurashtra, tai-le, sogdian, takri, thai, nko, kaithi, rejang, zanabazar-square, khudawadi, tai-viet, brahmi, cham, khojki, sundanese, yi, khmer, hebrew, kannada</li>
+<li>U+200D ZERO WIDTH JOINER: try adding one of: chakma, tamil, batak, oriya, warang-citi, siddham, syriac, sharada, new-tai-lue, gunjala-gondi, tai-tham, tibetan, hanifi-rohingya, balinese, mahajani, hanunoo, meetei-mayek, manichaean, psalter-pahlavi, masaram-gondi, newa, buhid, avestan, phags-pa, gurmukhi, tifinagh, myanmar, mandaic, devanagari, sinhala, syloti-nagri, kharoshthi, javanese, grantha, lepcha, bhaiksuki, duployan, tagalog, pahawh-hmong, tagbanwa, bengali, gujarati, arabic, limbu, telugu, tirhuta, thaana, buginese, dogra, kayah-li, lao, malayalam, modi, mongolian, old-hungarian, saurashtra, tai-le, sogdian, takri, thai, nko, kaithi, rejang, zanabazar-square, khudawadi, tai-viet, brahmi, cham, khojki, sundanese, yi, khmer, hebrew, kannada</li>
+<li>U+202F NARROW NO-BREAK SPACE: try adding one of: phags-pa, yi, mongolian</li>
 <li>U+2E2F VERTICAL TILDE: not included in any glyphset definition</li>
 <li>U+E000 : not included in any glyphset definition</li>
 <li>U+E002 : not included in any glyphset definition</li>
@@ -1597,7 +1568,7 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 7 | 15 | 109 | 7 | 98 | 0 | 
+| 0 | 0 | 6 | 15 | 109 | 7 | 99 | 0 | 
 | 0% | 0% | 3% | 6% | 46% | 3% | 42% | 0% | 
 
 
